@@ -21,7 +21,7 @@ import orangehrm.pages.LoginPage;
 public class AdminTest extends Base {
 	public WebDriver driver;
 	
-	
+	//Added the comment just to check.
 	
 	@BeforeMethod
 	public void Setup() 
