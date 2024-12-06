@@ -18,10 +18,10 @@ import orangehrm.pages.AdminPage;
 import orangehrm.pages.DashboardPage;
 import orangehrm.pages.LoginPage;
 
-public class AdminTest extends Base {
+public class AdminTest extends Base {   
 	public WebDriver driver;
 	
-	
+	//Added the comment just to check.Added more details 
 	
 	@BeforeMethod
 	public void Setup() 
