@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-07T17:37:38 IST" name="OrangeHrm Automation Suite" finished-at="2024-12-07T17:39:47 IST" duration-ms="128124">
+    <groups>
+    </groups>
+    <test started-at="2024-12-07T17:37:38 IST" name="Orange Hrm Test Cases" finished-at="2024-12-07T17:39:47 IST" duration-ms="128124">
+      <class name="orangehr.testcases.AdminTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:orangehr.testcases.AdminTest@72cc7e6f]" started-at="2024-12-07T17:39:18 IST" name="Setup" finished-at="2024-12-07T17:39:29 IST" duration-ms="10322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SearchAdminInSearchBox()[pri:1, instance:orangehr.testcases.AdminTest@72cc7e6f]" started-at="2024-12-07T17:39:29 IST" name="SearchAdminInSearchBox" finished-at="2024-12-07T17:39:30 IST" duration-ms="1582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchAdminInSearchBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehr.testcases.AdminTest@72cc7e6f]" started-at="2024-12-07T17:39:30 IST" name="tearDown" finished-at="2024-12-07T17:39:32 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:orangehr.testcases.AdminTest@72cc7e6f]" started-at="2024-12-07T17:39:32 IST" name="Setup" finished-at="2024-12-07T17:39:43 IST" duration-ms="11222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyAdminPage()[pri:2, instance:orangehr.testcases.AdminTest@72cc7e6f]" started-at="2024-12-07T17:39:43 IST" name="VerifyAdminPage" finished-at="2024-12-07T17:39:45 IST" duration-ms="2275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAdminPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehr.testcases.AdminTest@72cc7e6f]" started-at="2024-12-07T17:39:45 IST" name="tearDown" finished-at="2024-12-07T17:39:47 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orangehr.testcases.AdminTest -->
+      <class name="orangehr.testcases.DashboardTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:orangehr.testcases.DashboardTest@5f049ea1]" started-at="2024-12-07T17:39:05 IST" name="Setup" finished-at="2024-12-07T17:39:16 IST" duration-ms="11055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyDashboardHelp()[pri:1, instance:orangehr.testcases.DashboardTest@5f049ea1]" started-at="2024-12-07T17:39:16 IST" name="VerifyDashboardHelp" finished-at="2024-12-07T17:39:17 IST" duration-ms="519" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title is not matching expected [OrangeHRMTest] but found [OrangeHRM]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title is not matching expected [OrangeHRMTest] but found [OrangeHRM]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at orangehr.testcases.DashboardTest.VerifyDashboardHelp(DashboardTest.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDashboardHelp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehr.testcases.DashboardTest@5f049ea1]" started-at="2024-12-07T17:39:17 IST" name="tearDown" finished-at="2024-12-07T17:39:18 IST" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="QuickLaunchAssignLeave()[pri:2, instance:orangehr.testcases.DashboardTest@5f049ea1]" started-at="2024-12-07T17:39:18 IST" name="QuickLaunchAssignLeave" finished-at="2024-12-07T17:39:18 IST" depends-on-methods="orangehr.testcases.DashboardTest.VerifyDashboardHelp" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method orangehr.testcases.DashboardTest.QuickLaunchAssignLeave() on instance orangehr.testcases.DashboardTest@5f049ea1 depends on not successfully finished methods 
+[orangehr.testcases.DashboardTest.VerifyDashboardHelp() on instance orangehr.testcases.DashboardTest@5f049ea1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method orangehr.testcases.DashboardTest.QuickLaunchAssignLeave() on instance orangehr.testcases.DashboardTest@5f049ea1 depends on not successfully finished methods 
+[orangehr.testcases.DashboardTest.VerifyDashboardHelp() on instance orangehr.testcases.DashboardTest@5f049ea1]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuickLaunchAssignLeave -->
+      </class> <!-- orangehr.testcases.DashboardTest -->
+      <class name="orangehr.testcases.LoginTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:37:39 IST" name="Setup" finished-at="2024-12-07T17:38:04 IST" duration-ms="24379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyloginwithvalidcredentials(java.lang.String,java.lang.String)[pri:1, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:04 IST" name="verifyloginwithvalidcredentials" data-provider="DifferentCredentialSupplier" finished-at="2024-12-07T17:38:07 IST" duration-ms="3691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithvalidcredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:07 IST" name="tearDown" finished-at="2024-12-07T17:38:09 IST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:09 IST" name="Setup" finished-at="2024-12-07T17:38:16 IST" duration-ms="7394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyloginwithvalidcredentials(java.lang.String,java.lang.String)[pri:1, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:16 IST" name="verifyloginwithvalidcredentials" data-provider="DifferentCredentialSupplier" finished-at="2024-12-07T17:38:19 IST" duration-ms="2721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithvalidcredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:19 IST" name="tearDown" finished-at="2024-12-07T17:38:20 IST" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:20 IST" name="Setup" finished-at="2024-12-07T17:38:28 IST" duration-ms="7655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyloginwithvalidcredentials(java.lang.String,java.lang.String)[pri:1, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:28 IST" name="verifyloginwithvalidcredentials" data-provider="DifferentCredentialSupplier" finished-at="2024-12-07T17:38:31 IST" duration-ms="3222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithvalidcredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:31 IST" name="tearDown" finished-at="2024-12-07T17:38:32 IST" duration-ms="1393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:32 IST" name="Setup" finished-at="2024-12-07T17:38:40 IST" duration-ms="7297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyloginwithinvalidusername()[pri:2, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:40 IST" name="verifyloginwithinvalidusername" finished-at="2024-12-07T17:38:43 IST" duration-ms="2868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithinvalidusername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:43 IST" name="tearDown" finished-at="2024-12-07T17:38:44 IST" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:44 IST" name="Setup" finished-at="2024-12-07T17:38:51 IST" duration-ms="6524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyloginwithinvalidpassword()[pri:3, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:51 IST" name="verifyloginwithinvalidpassword" finished-at="2024-12-07T17:38:53 IST" duration-ms="2919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithinvalidpassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:53 IST" name="tearDown" finished-at="2024-12-07T17:38:55 IST" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:38:55 IST" name="Setup" finished-at="2024-12-07T17:39:01 IST" duration-ms="6329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyloginwithinvaliusernameandpw()[pri:4, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:39:01 IST" name="verifyloginwithinvaliusernameandpw" finished-at="2024-12-07T17:39:04 IST" duration-ms="2891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithinvaliusernameandpw -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangehr.testcases.LoginTest@5b1669c0]" started-at="2024-12-07T17:39:04 IST" name="tearDown" finished-at="2024-12-07T17:39:05 IST" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orangehr.testcases.LoginTest -->
+    </test> <!-- Orange Hrm Test Cases -->
+  </suite> <!-- OrangeHrm Automation Suite -->
+</testng-results>
